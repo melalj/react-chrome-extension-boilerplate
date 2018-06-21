@@ -1,0 +1,47 @@
+{
+  "name": "react-chrome-extension-boilerplate",
+  "version": "1.0.0",
+  "author": "Mohammed Elalj <hi@tonoid.com>",
+  "description": "Boilerplate for a Chrome Extension with React + SASS + Redux",
+  "scripts": {
+    "build": "node utils/build.js",
+    "start": "node utils/webserver.js",
+    "format": "./node_modules/.bin/eslint --fix ./src/js/**/*"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.1",
+    "react-chrome-redux": "^2.0.0-alpha.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3",
+    "react-redux": "^5.0.7",
+    "react-tabs": "^2.2.2",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.9.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "fs-extra": "^6.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "4.12.0",
+    "webpack-dev-server": "^3.1.4",
+    "write-file-webpack-plugin": "4.3.2"
+  }
+}
