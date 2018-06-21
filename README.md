@@ -54,10 +54,10 @@ If you are developing an extension that talks with some API you probably are usi
 
 To this task this boilerplate import the file `./secrets.<NODE_ENV>.js` on your modules through the module named as `secrets`, so you can do things like this:
 
-_./secrets.development.js_ (already are ignored on the repository)
+_./secrets.development.js_ or _./secrets.production.js_ (already are ignored on the repository)
 ```
 export default {
-    key: 'value',
+    apiKey: 'sample',
 };
 ```
 
